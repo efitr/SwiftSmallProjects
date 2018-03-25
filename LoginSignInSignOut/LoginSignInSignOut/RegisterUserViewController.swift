@@ -115,13 +115,12 @@ class RegisterUserViewController: UIViewController {
                 }
             } catch {
                 self.removeActivityIndicator(activityIndicator: myActivityIndicator)
-                
-                displayMessage(userMessage: "Could not succesfully perform this request. Please try again later")
                 print(error)
+                self.displayMessage(userMessage: "Could not succesfully perform this request. Please try again later")
+
             }
             }
             task.resume()
-        }
         
     }
     @IBAction func cancelButtonTapped(_ sender: Any) {
