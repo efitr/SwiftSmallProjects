@@ -29,6 +29,8 @@ class RegisterUserViewController: UIViewController {
     @IBAction func signupButtonTapped(_ sender: Any) {
         print("SignUp button tapped")
         
+        ///////////////////////////////////////////////////////////////////
+        //if any or fields are empty, inform that everything must be filled
         if (firstNameTextField.text?.isEmpty)! ||
             (lastNameTextField.text?.isEmpty)! ||
             (emailTextField.text?.isEmpty)! ||
@@ -37,7 +39,7 @@ class RegisterUserViewController: UIViewController {
             displayMessage(userMessage: "All fields are required")
             return
         }
-        
+        //////////////////////////////////////////////
         //Make the password be the same on both levels
         if ((passwordTextField.text?.elementsEqual(confirmPasswordTextField.text!))! != true)
         {
@@ -45,6 +47,7 @@ class RegisterUserViewController: UIViewController {
             return
         }
         
+        ///////////////////////////////////////////////////////
         //The spinning wheel that appears after saving the user
         let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
         
@@ -137,6 +140,7 @@ class RegisterUserViewController: UIViewController {
             activityIndicator.removeFromSuperview()
         }
     }
+
 
     //Function with the purpose of giving a message depending on where it's been called, you give the content
     func displayMessage(userMessage: String) -> Void

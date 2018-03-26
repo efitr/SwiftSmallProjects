@@ -7,5 +7,6 @@ target 'LoginSignInSignOut' do
 
   # Pods for LoginSignInSignOut
     pod 'KeychainSwift', '~> 10.0'
+    pod 'SwiftKeychainWrapper'
 
 end

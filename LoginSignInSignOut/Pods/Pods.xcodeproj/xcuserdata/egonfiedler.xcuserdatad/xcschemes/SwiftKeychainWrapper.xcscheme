@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8C193DE193DF622EEF079E371E501BC9'
-               BlueprintName = 'Pods-LoginSignInSignOut'
+               BlueprintIdentifier = '65B0EBE716FD54BA49FDAF34C52EF2A0'
+               BlueprintName = 'SwiftKeychainWrapper'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-LoginSignInSignOut.framework'>
+               BuildableName = 'SwiftKeychainWrapper.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
