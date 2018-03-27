@@ -107,7 +107,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <action selector="SignInButtonTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5m-sn-P6P"/>
+                                    <action selector="SignInButtonTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FRQ-NX-YV8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SignIn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fME-aI-s7h">
